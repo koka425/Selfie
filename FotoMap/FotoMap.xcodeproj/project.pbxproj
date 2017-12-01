@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8FD13F1FC5BDFB001F2451 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8FD13E1FC5BDFB001F2451 /* Pin.swift */; };
+		7FA6A3F21FBC7CC6001A7A53 /* SelfieMapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA6A3F11FBC7CC6001A7A53 /* SelfieMapaViewController.swift */; };
+		7FFBB22C1FB3540D00826A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB22B1FB3540D00826A08 /* AppDelegate.swift */; };
+		7FFBB22E1FB3540D00826A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB22D1FB3540D00826A08 /* ViewController.swift */; };
+		7FFBB2311FB3540D00826A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFBB22F1FB3540D00826A08 /* Main.storyboard */; };
+		7FFBB2331FB3540D00826A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFBB2321FB3540D00826A08 /* Assets.xcassets */; };
+		7FFBB2361FB3540D00826A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFBB2341FB3540D00826A08 /* LaunchScreen.storyboard */; };
+		7FFBB2411FB3540D00826A08 /* FotoMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB2401FB3540D00826A08 /* FotoMapTests.swift */; };
+		7FFBB24C1FB3540D00826A08 /* FotoMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB24B1FB3540D00826A08 /* FotoMapUITests.swift */; };
+		7FFBB25A1FB3589F00826A08 /* Selfie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB2591FB3589F00826A08 /* Selfie.swift */; };
+		7FFBB25C1FB3597600826A08 /* SelfieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB25B1FB3597600826A08 /* SelfieTableViewController.swift */; };
+		7FFBB25E1FB3599500826A08 /* SelfieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB25D1FB3599500826A08 /* SelfieTableViewCell.swift */; };
+		7FFBB2601FB359F300826A08 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBB25F1FB359F300826A08 /* SelfieViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FFBB23D1FB3540D00826A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FFBB2201FB3540D00826A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFBB2271FB3540D00826A08;
+			remoteInfo = FotoMap;
+		};
+		7FFBB2481FB3540D00826A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FFBB2201FB3540D00826A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFBB2271FB3540D00826A08;
+			remoteInfo = FotoMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F8FD13E1FC5BDFB001F2451 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		7FA6A3F11FBC7CC6001A7A53 /* SelfieMapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieMapaViewController.swift; sourceTree = "<group>"; };
+		7FFBB2281FB3540D00826A08 /* FotoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFBB22B1FB3540D00826A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FFBB22D1FB3540D00826A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FFBB2301FB3540D00826A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FFBB2321FB3540D00826A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FFBB2351FB3540D00826A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FFBB2371FB3540D00826A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFBB23C1FB3540D00826A08 /* FotoMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFBB2401FB3540D00826A08 /* FotoMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoMapTests.swift; sourceTree = "<group>"; };
+		7FFBB2421FB3540D00826A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFBB2471FB3540D00826A08 /* FotoMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFBB24B1FB3540D00826A08 /* FotoMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoMapUITests.swift; sourceTree = "<group>"; };
+		7FFBB24D1FB3540D00826A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFBB2591FB3589F00826A08 /* Selfie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selfie.swift; sourceTree = "<group>"; };
+		7FFBB25B1FB3597600826A08 /* SelfieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieTableViewController.swift; sourceTree = "<group>"; };
+		7FFBB25D1FB3599500826A08 /* SelfieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieTableViewCell.swift; sourceTree = "<group>"; };
+		7FFBB25F1FB359F300826A08 /* SelfieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FFBB2251FB3540D00826A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFBB2391FB3540D00826A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFBB2441FB3540D00826A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FFBB21F1FB3540D00826A08 = {
+			isa = PBXGroup;
+			children = (
+				7FFBB22A1FB3540D00826A08 /* FotoMap */,
+				7FFBB23F1FB3540D00826A08 /* FotoMapTests */,
+				7FFBB24A1FB3540D00826A08 /* FotoMapUITests */,
+				7FFBB2291FB3540D00826A08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFBB2291FB3540D00826A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FFBB2281FB3540D00826A08 /* FotoMap.app */,
+				7FFBB23C1FB3540D00826A08 /* FotoMapTests.xctest */,
+				7FFBB2471FB3540D00826A08 /* FotoMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FFBB22A1FB3540D00826A08 /* FotoMap */ = {
+			isa = PBXGroup;
+			children = (
+				7FFBB22B1FB3540D00826A08 /* AppDelegate.swift */,
+				7FFBB22D1FB3540D00826A08 /* ViewController.swift */,
+				7FFBB22F1FB3540D00826A08 /* Main.storyboard */,
+				7FFBB2321FB3540D00826A08 /* Assets.xcassets */,
+				7FFBB2341FB3540D00826A08 /* LaunchScreen.storyboard */,
+				7FFBB2371FB3540D00826A08 /* Info.plist */,
+				7FFBB2591FB3589F00826A08 /* Selfie.swift */,
+				7FFBB25B1FB3597600826A08 /* SelfieTableViewController.swift */,
+				7FFBB25D1FB3599500826A08 /* SelfieTableViewCell.swift */,
+				7FFBB25F1FB359F300826A08 /* SelfieViewController.swift */,
+				7FA6A3F11FBC7CC6001A7A53 /* SelfieMapaViewController.swift */,
+				7F8FD13E1FC5BDFB001F2451 /* Pin.swift */,
+			);
+			path = FotoMap;
+			sourceTree = "<group>";
+		};
+		7FFBB23F1FB3540D00826A08 /* FotoMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFBB2401FB3540D00826A08 /* FotoMapTests.swift */,
+				7FFBB2421FB3540D00826A08 /* Info.plist */,
+			);
+			path = FotoMapTests;
+			sourceTree = "<group>";
+		};
+		7FFBB24A1FB3540D00826A08 /* FotoMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFBB24B1FB3540D00826A08 /* FotoMapUITests.swift */,
+				7FFBB24D1FB3540D00826A08 /* Info.plist */,
+			);
+			path = FotoMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FFBB2271FB3540D00826A08 /* FotoMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFBB2501FB3540D00826A08 /* Build configuration list for PBXNativeTarget "FotoMap" */;
+			buildPhases = (
+				7FFBB2241FB3540D00826A08 /* Sources */,
+				7FFBB2251FB3540D00826A08 /* Frameworks */,
+				7FFBB2261FB3540D00826A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FotoMap;
+			productName = FotoMap;
+			productReference = 7FFBB2281FB3540D00826A08 /* FotoMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FFBB23B1FB3540D00826A08 /* FotoMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFBB2531FB3540D00826A08 /* Build configuration list for PBXNativeTarget "FotoMapTests" */;
+			buildPhases = (
+				7FFBB2381FB3540D00826A08 /* Sources */,
+				7FFBB2391FB3540D00826A08 /* Frameworks */,
+				7FFBB23A1FB3540D00826A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FFBB23E1FB3540D00826A08 /* PBXTargetDependency */,
+			);
+			name = FotoMapTests;
+			productName = FotoMapTests;
+			productReference = 7FFBB23C1FB3540D00826A08 /* FotoMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FFBB2461FB3540D00826A08 /* FotoMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFBB2561FB3540D00826A08 /* Build configuration list for PBXNativeTarget "FotoMapUITests" */;
+			buildPhases = (
+				7FFBB2431FB3540D00826A08 /* Sources */,
+				7FFBB2441FB3540D00826A08 /* Frameworks */,
+				7FFBB2451FB3540D00826A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FFBB2491FB3540D00826A08 /* PBXTargetDependency */,
+			);
+			name = FotoMapUITests;
+			productName = FotoMapUITests;
+			productReference = 7FFBB2471FB3540D00826A08 /* FotoMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FFBB2201FB3540D00826A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alumno ITESM Toluca";
+				TargetAttributes = {
+					7FFBB2271FB3540D00826A08 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					7FFBB23B1FB3540D00826A08 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FFBB2271FB3540D00826A08;
+					};
+					7FFBB2461FB3540D00826A08 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FFBB2271FB3540D00826A08;
+					};
+				};
+			};
+			buildConfigurationList = 7FFBB2231FB3540D00826A08 /* Build configuration list for PBXProject "FotoMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FFBB21F1FB3540D00826A08;
+			productRefGroup = 7FFBB2291FB3540D00826A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFBB2271FB3540D00826A08 /* FotoMap */,
+				7FFBB23B1FB3540D00826A08 /* FotoMapTests */,
+				7FFBB2461FB3540D00826A08 /* FotoMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FFBB2261FB3540D00826A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFBB2361FB3540D00826A08 /* LaunchScreen.storyboard in Resources */,
+				7FFBB2331FB3540D00826A08 /* Assets.xcassets in Resources */,
+				7FFBB2311FB3540D00826A08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFBB23A1FB3540D00826A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFBB2451FB3540D00826A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FFBB2241FB3540D00826A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFBB2601FB359F300826A08 /* SelfieViewController.swift in Sources */,
+				7FFBB22E1FB3540D00826A08 /* ViewController.swift in Sources */,
+				7FA6A3F21FBC7CC6001A7A53 /* SelfieMapaViewController.swift in Sources */,
+				7F8FD13F1FC5BDFB001F2451 /* Pin.swift in Sources */,
+				7FFBB25C1FB3597600826A08 /* SelfieTableViewController.swift in Sources */,
+				7FFBB22C1FB3540D00826A08 /* AppDelegate.swift in Sources */,
+				7FFBB25E1FB3599500826A08 /* SelfieTableViewCell.swift in Sources */,
+				7FFBB25A1FB3589F00826A08 /* Selfie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFBB2381FB3540D00826A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFBB2411FB3540D00826A08 /* FotoMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFBB2431FB3540D00826A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFBB24C1FB3540D00826A08 /* FotoMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FFBB23E1FB3540D00826A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FFBB2271FB3540D00826A08 /* FotoMap */;
+			targetProxy = 7FFBB23D1FB3540D00826A08 /* PBXContainerItemProxy */;
+		};
+		7FFBB2491FB3540D00826A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FFBB2271FB3540D00826A08 /* FotoMap */;
+			targetProxy = 7FFBB2481FB3540D00826A08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FFBB22F1FB3540D00826A08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFBB2301FB3540D00826A08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FFBB2341FB3540D00826A08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFBB2351FB3540D00826A08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FFBB24E1FB3540D00826A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FFBB24F1FB3540D00826A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FFBB2511FB3540D00826A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FotoMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tec.itesm.tol.FotoMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7FFBB2521FB3540D00826A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FotoMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tec.itesm.tol.FotoMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7FFBB2541FB3540D00826A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FotoMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tec.itesm.tol.FotoMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotoMap.app/FotoMap";
+			};
+			name = Debug;
+		};
+		7FFBB2551FB3540D00826A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FotoMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tec.itesm.tol.FotoMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotoMap.app/FotoMap";
+			};
+			name = Release;
+		};
+		7FFBB2571FB3540D00826A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FotoMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tec.itesm.tol.FotoMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FotoMap;
+			};
+			name = Debug;
+		};
+		7FFBB2581FB3540D00826A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FotoMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tec.itesm.tol.FotoMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FotoMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FFBB2231FB3540D00826A08 /* Build configuration list for PBXProject "FotoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFBB24E1FB3540D00826A08 /* Debug */,
+				7FFBB24F1FB3540D00826A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFBB2501FB3540D00826A08 /* Build configuration list for PBXNativeTarget "FotoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFBB2511FB3540D00826A08 /* Debug */,
+				7FFBB2521FB3540D00826A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFBB2531FB3540D00826A08 /* Build configuration list for PBXNativeTarget "FotoMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFBB2541FB3540D00826A08 /* Debug */,
+				7FFBB2551FB3540D00826A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFBB2561FB3540D00826A08 /* Build configuration list for PBXNativeTarget "FotoMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFBB2571FB3540D00826A08 /* Debug */,
+				7FFBB2581FB3540D00826A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FFBB2201FB3540D00826A08 /* Project object */;
+}
